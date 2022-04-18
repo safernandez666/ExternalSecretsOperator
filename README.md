@@ -1,4 +1,4 @@
-# ExternalSecretsOperator
+# External Secrets Operator & Hashicorp Vault
 
 External Secrets Operator on Kubernetes with Hashicorp Vault
 
