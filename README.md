@@ -37,3 +37,9 @@ helm install external-secrets \
     --create-namespace \
     --set installCRDs=true
 ```
+
+Deploy the ***secret.yaml*** with the token to connect to Vault and the ***clustersecretstore.yaml*** to point the Vault Server.
+
+``` bash
+kubectl apply -f external-secret
+```
