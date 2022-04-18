@@ -43,3 +43,10 @@ Deploy the ***secret.yaml*** with the token to connect to Vault and the ***clust
 ``` bash
 kubectl apply -f external-secret
 ```
+
+### Install External Secret on the Namespace
+
+``` bash
+kubectl create ns app
+kubectl apply -f app/externalsecret-basic.yaml
+```
