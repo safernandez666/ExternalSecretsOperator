@@ -56,7 +56,7 @@ kubectl create ns app
 kubectl apply -f app/externalsecret-basic.yaml
 ```
 
-Take a look to the secret in action!
+Take a look to the secret in action! If you review the ***extanarsecret-basic.yaml*** you can check the refesh interval it's on 15 minutes.
 
 <p align="center">
 <img src="screenshots/DATA.png" width="800" >
