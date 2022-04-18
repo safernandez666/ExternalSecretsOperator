@@ -25,6 +25,9 @@ vault login -address=http://127.0.0.1:8200 -tls-skip-verify
 
 vault kv put secret/dev/app username="admin" password="p4ssw0d"
 ```
+<p align="center">
+<img src="screenshots/UI.png" width="800" >
+</p>
 
 ### Install External Secrets Operator with Helm
 
@@ -46,7 +49,15 @@ kubectl apply -f external-secret
 
 ### Install External Secret on the Namespace
 
+Create a ns to your app and deploy the secrets.
+
 ``` bash
 kubectl create ns app
 kubectl apply -f app/externalsecret-basic.yaml
 ```
+
+Take a look to the secret in action!
+
+<p align="center">
+<img src="screenshots/DATA.png" width="800" >
+</p>
